@@ -1,0 +1,22 @@
+JPA stand for Java persistent API -> it's a specification for accessing persisting and managing
+data betn Java objects
+
+JPA
+@Entity //map class this to table
+public class Student {
+
+    @Id //primary key ko lagi
+    private Long id;
+    private String firstname;
+    private String lastname;
+    private String email;
+    private  Integer age;
+
+SB in server:
+API layer-> Studcontroller
+Service layer
+Data Access Layer
+
+
+to change server in locL HOST
+A:\Study\Languages\JAVA\demo\target>java -jar demo-0.0.1-SNAPSHOT.jar --server.port=8081
